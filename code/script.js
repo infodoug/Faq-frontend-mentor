@@ -17,10 +17,10 @@ function toggle(numfaq, numanswer, numimg) {
         answer.id = 'answerid'+numanswer;
         answer.textContent = answerList[numanswer];
         faq.appendChild(answer);
-        symbol.src = "../assets/images/icon-minus.svg";
+        symbol.src = "./assets/images/icon-minus.svg";
     } else {
         var element = document.getElementById('answerid'+numanswer);
         element.remove();
-        symbol.src = "../assets/images/icon-plus.svg";
+        symbol.src = "./assets/images/icon-plus.svg";
     }
 }
