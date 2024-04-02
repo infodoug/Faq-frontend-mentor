@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ accordion</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="title">
+        <img src="../assets/images/icon-star.svg" alt="Ícone de estrela" class="star">
+        <h1>FAQs</h1>
+      </div>
+      <div class="faqlist">
+        <div id="faq1">
+          <div class="question">
+            <h2><a onclick="toggle('faq1', '1', 'plusSymbol1')">What is Frontend Mentor, and how will it help me?</a></h2>
+            <button type="button" onclick="toggle('faq1', '1', 'plusSymbol1')"><img src="../assets/images/icon-plus.svg" alt="botão" id="plusSymbol1"></button>
+          </div>
+        </div>
+        <div id="faq2">
+          <div class="question">
+            <h2><a onclick="toggle('faq2', '2', 'plusSymbol2')">Is Frontend Mentor free?</a></h2>
+            <button type="button" onclick="toggle('faq2', '2', 'plusSymbol2')"><img src="../assets/images/icon-plus.svg" alt="botão" id="plusSymbol2"></button>
+          </div>
+        </div>
+        <div id="faq3">
+          <div class="question">
+            <h2><a onclick="toggle('faq3', '3', 'plusSymbol3')">Can I use Frontend Mentor projects in my portfolio?</a></h2>
+            <button type="button" onclick="toggle('faq3', '3', 'plusSymbol3')"><img src="../assets/images/icon-plus.svg" alt="botão" id="plusSymbol3"></button>
+          </div>
+        </div>
+        <div id="faq4">
+          <div class="question">
+            <h2><a onclick="toggle('faq4', '4', 'plusSymbol4')">How can I get help if I'm stuck on a challenge?</a></h2>
+            <button type="button" onclick="toggle('faq4', '4', 'plusSymbol4')"><img src="../assets/images/icon-plus.svg" alt="botão" id="plusSymbol4"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
